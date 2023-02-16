@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-editor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+      <h1 class="text-blue-400 text-3xl text-center m-3 font-semibold">Text Editor Practice</h1>
+      <section class="bg-sky-600 p-20  mb-3  w-10/12 mx-auto rounded h-auto">
+        
+
+      <div class="w-full mx-auto shadow-md bg-red-100 h-96  border-4 border-black px-10">
+
+           <div class="inline">
+              <button id="bold" class="px-3 py-2 bg-red-400 font-bold rounded text-white m-2">Bold</button>
+              <button id="italic" class="px-3 py-2 bg-red-400 font-bold rounded text-white m-2">Italic</button>
+              <button id="underline" class="px-3 py-2 bg-red-400 font-bold rounded text-white m-2">Underline</button>
+            </div>
+            <div class="inline mx-10">
+              <button id="left" class="px-3 py-2 bg-red-400 font-bold rounded text-white m-2">left</button>
+              <button id="center" class="px-3 py-2 bg-red-400 font-bold rounded text-white m-2">center</button>
+              <button id="right" class="px-3 py-2 bg-red-400 font-bold rounded text-white m-2">right</button>
+           
+            </div>
+  
+            <div class="inline  mx-10  font-bold">
+              <form action="/action_page.php" class="inline">
+                <label class="text-xl">Color picker :</label>
+                  <input class="mt-7" type="color" id="favcolor" name="favcolor" value="#ff0000"> 
+                </form>
+          </div>
+          <!-- write in this div -->
+        <div class="mt-5 text-center">
+          <!-- <p>Hellow, My Js Friend</p> -->
+          <textarea id="textArea" class="p-3" rows="10" cols="80">
+           
+            </textarea>
+         </div>
+        
+          
+        </div>
+  
+    
+    
+      
+
+      </section>
+    <script src="./script.js"></script>
+</body>
+</html>
